@@ -1,3 +1,5 @@
+# Hi
+
 # `ec` a command line client for HACBS Enterprise Contract
 
 ```
