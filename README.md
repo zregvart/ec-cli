@@ -31,4 +31,4 @@ https://github.com/redhat-appstudio/build-definitions/ repository with
 the Tekton Chains controller from the `poc-tep-84` branch, e.g. via the
 image built here: https://github.com/hacbs-contract/chains/pkgs/container/chains%2Fcontroller/?tag=poc-tep-84
 
-A change
+Another change
