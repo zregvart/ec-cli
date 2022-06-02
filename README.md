@@ -34,3 +34,5 @@ image built here: https://github.com/hacbs-contract/chains/pkgs/container/chains
 Neat change.
 
 A wonderful change
+
+Beautiful change
