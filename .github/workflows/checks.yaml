@@ -27,5 +27,12 @@ jobs:
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
           restore-keys: ${{ runner.os }}-go-
 
-      - name: Build
-        run: make build-linux-amd64
+      - name: Test
+        run: make test
+
+      - name: Upload coverage report
+        env:
+          COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          go install github.com/mattn/goveralls@v0.0.11
+          goveralls -coverprofile=coverage.out -service=github
