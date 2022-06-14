@@ -1,0 +1,1 @@
+{"go-coverage-action-fmt":1,"coverage_pct":60.6,"pkg_stats":{"github.com/hacbs-contract/ec-cli":[0],"github.com/hacbs-contract/ec-cli/cmd":[0],"github.com/hacbs-contract/ec-cli/cmd/internal/image":[0],"github.com/hacbs-contract/ec-cli/cmd/internal/policy":[60.6]}}
