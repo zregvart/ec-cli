@@ -1,0 +1,3 @@
+[submodule "docs/themes/hugo-book"]
+	path = docs/themes/hugo-book
+	url = ../../alex-shpak/hugo-book
