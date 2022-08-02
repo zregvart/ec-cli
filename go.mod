@@ -11,6 +11,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.3.1
 	github.com/go-git/go-git/v5 v5.4.2
 	github.com/go-openapi/strfmt v0.21.3
+	github.com/gohugoio/hugo v0.101.0
 	github.com/golangci/golangci-lint v1.47.2
 	github.com/google/addlicense v1.0.0
 	github.com/google/go-containerregistry v0.11.0
@@ -18,7 +19,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/in-toto/in-toto-golang v0.3.4-0.20220709202702-fa494aaa0add
 	github.com/leanovate/gopter v0.2.9
-	github.com/open-policy-agent/conftest v0.33.2
+	github.com/open-policy-agent/conftest v0.34.0
 	github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e
 	github.com/pkg/errors v0.9.1
 	github.com/redhat-appstudio/managed-gitops/appstudio-shared v0.0.0-20220615221006-a71c1aa4b97f
@@ -222,7 +223,6 @@ require (
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/gohugoio/go-i18n/v2 v2.1.3-0.20210430103248-4c28c89f8013 // indirect
-	github.com/gohugoio/hugo v0.101.0 // indirect
 	github.com/gohugoio/locales v0.14.0 // indirect
 	github.com/gohugoio/localescompressed v1.0.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
@@ -349,7 +349,7 @@ require (
 	github.com/nishanths/predeclared v0.2.2 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
-	github.com/open-policy-agent/opa v0.42.2 // indirect
+	github.com/open-policy-agent/opa v0.43.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.3-0.20220512140940-7b36cea86235 // indirect
 	github.com/opencontainers/runc v1.1.3 // indirect
@@ -420,7 +420,7 @@ require (
 	github.com/urfave/cli v1.22.7 // indirect
 	github.com/uudashr/gocognit v1.0.6 // indirect
 	github.com/vbatts/tar-split v0.11.2 // indirect
-	github.com/vektah/gqlparser/v2 v2.4.5 // indirect
+	github.com/vektah/gqlparser/v2 v2.4.6 // indirect
 	github.com/xanzy/go-gitlab v0.69.0 // indirect
 	github.com/xanzy/ssh-agent v0.3.0 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
