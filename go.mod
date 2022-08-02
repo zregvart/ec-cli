@@ -11,6 +11,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.3.1
 	github.com/go-git/go-git/v5 v5.4.2
 	github.com/go-openapi/strfmt v0.21.3
+	github.com/gohugoio/hugo v0.101.0
 	github.com/golangci/golangci-lint v1.47.2
 	github.com/google/addlicense v1.0.0
 	github.com/google/go-containerregistry v0.11.0
@@ -35,7 +36,7 @@ require (
 	github.com/theupdateframework/go-tuf v0.3.1
 	github.com/transparency-dev/merkle v0.0.1
 	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad
-	github.com/walkerus/go-wiremock v1.2.0
+	github.com/walkerus/go-wiremock v1.3.0
 	github.com/yudai/gojsondiff v1.0.0
 	k8s.io/apimachinery v0.24.3
 	k8s.io/client-go v0.24.3
@@ -222,7 +223,6 @@ require (
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/gohugoio/go-i18n/v2 v2.1.3-0.20210430103248-4c28c89f8013 // indirect
-	github.com/gohugoio/hugo v0.101.0 // indirect
 	github.com/gohugoio/locales v0.14.0 // indirect
 	github.com/gohugoio/localescompressed v1.0.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
