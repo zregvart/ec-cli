@@ -1,0 +1,6 @@
+---
+name: ec-cli
+title: Enterprise Contract Command Line Interface
+version: main
+nav:
+- modules/ROOT/nav.adoc

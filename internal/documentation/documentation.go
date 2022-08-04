@@ -33,8 +33,11 @@ const DirectoryPermissions = 0755
 var markdown = flag.String("markdown", "docs/content/docs", "Location of the generated MarkDown files")
 var man = flag.String("man", "", "Location of the generated Man files")
 var rst = flag.String("rst", "", "Location of the generated reStructuredText files")
+var yaml = flag.String("yaml", "", "Location of the generated YAML files")
 
 func main() {
+	flag.Parse()
+
 	// Disable generated tags
 	cmd.RootCmd.DisableAutoGenTag = true
 
@@ -82,6 +85,16 @@ func main() {
 			return
 		}
 		if err = doc.GenReSTTree(cmd.RootCmd, *rst); err != nil {
+			return
+		}
+	}
+
+	// YAML
+	if *yaml != "" {
+		if err = os.MkdirAll(*yaml, DirectoryPermissions); err != nil {
+			return
+		}
+		if err = doc.GenYamlTree(cmd.RootCmd, *yaml); err != nil {
 			return
 		}
 	}
