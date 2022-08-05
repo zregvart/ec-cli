@@ -22,4 +22,4 @@ output:
   dir: ./public
 antora:
   extensions:
-    - require: '@hacbs-contract/reference-antora-extension'
+    - require: '@zregvart/reference-antora-extension'
