@@ -1,9 +1,9 @@
 {
-  "name": "@hacbs-contract/reference-antora-extension",
+  "name": "@zregvart/reference-antora-extension",
   "version": "0.0.0",
   "description": "Antora Extension to generate Asciidoc documents from Cobra YAML documentation format",
   "main": "index.js",
-  "repository": "https://github.com/hacbs-contract/ec-cli",
+  "repository": "https://github.com/zregvart/ec-cli",
   "keywords": [
     "antora",
     "golang",
