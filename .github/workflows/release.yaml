@@ -23,7 +23,7 @@ name: Release
       - main
 
 jobs:
-  build:
+  release-ec:
 
     name: Release
     runs-on: ubuntu-latest
