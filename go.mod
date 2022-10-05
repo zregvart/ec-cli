@@ -33,7 +33,7 @@ require (
 	github.com/stuart-warren/yamlfmt v0.1.2
 	github.com/tektoncd/pipeline v0.38.2
 	github.com/testcontainers/testcontainers-go v0.13.1-0.20220718081829-d3af31803ce6
-	github.com/theupdateframework/go-tuf v0.3.1
+	github.com/theupdateframework/go-tuf v0.5.1
 	github.com/transparency-dev/merkle v0.0.1
 	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad
 	github.com/walkerus/go-wiremock v1.3.0
@@ -404,7 +404,7 @@ require (
 	github.com/stretchr/objx v0.4.0 // indirect
 	github.com/subosito/gotenv v1.4.0 // indirect
 	github.com/sylvia7788/contextcheck v1.0.4 // indirect
-	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
+	github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d // indirect
 	github.com/tdakkota/asciicheck v0.1.1 // indirect
 	github.com/tdewolff/minify/v2 v2.11.10 // indirect
 	github.com/tdewolff/parse/v2 v2.6.0 // indirect
