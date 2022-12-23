@@ -56,7 +56,6 @@ jobs:
       - name: Download go dependencies
         run: |
           go mod download
-          go mod download -modfile internal/tools/go.mod
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v2
