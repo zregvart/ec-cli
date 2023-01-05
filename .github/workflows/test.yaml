@@ -15,29 +15,22 @@
 # SPDX-License-Identifier: Apache-2.0
 
 ---
-name: Release reference-antora-extension
-
-"on":
-  push:
-    branches:
-      - main
-    paths:
-      - 'reference-antora-extension/**'
-
+name: Test
+on:
+  workflow_dispatch:
 
 jobs:
-  release-antora-extension:
-    name: Release to NPM
+  test:
+
+    name: Test
     runs-on: ubuntu-latest
+
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+      TAG: 14d6e18e138dbf99f49031b003c613f4353cb2bf
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: |
-          npm version prerelease --preid $(git rev-parse HEAD)
-          npm publish --access=public
-        working-directory: reference-antora-extension
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - run: hack/pr-infra-deployments.sh "${TAG}"

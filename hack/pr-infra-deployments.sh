@@ -22,6 +22,8 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+set -x
+
 TASK_BUNDLE_TAG="$1"
 TASK_BUNDLE_DIGEST="$(skopeo inspect "docker://quay.io/hacbs-contract/ec-task-bundle:${TASK_BUNDLE_TAG}" | jq -r .Digest)"
 TASK_BUNDLE_REF="quay.io/hacbs-contract/ec-task-bundle:${TASK_BUNDLE_TAG}@${TASK_BUNDLE_DIGEST}"
