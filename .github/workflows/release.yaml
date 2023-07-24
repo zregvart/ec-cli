@@ -36,7 +36,6 @@ jobs:
       id-token: write  # Needed for GitHub Pages deployment
     name: Release
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event.workflow_dispatch }}
 
     env:
       IMAGE_REPO: quay.io/hacbs-contract/ec-cli
@@ -61,43 +60,6 @@ jobs:
             ~/go/pkg/mod
             .npm
           key: main
-
-      - name: Setup Go environment
-        uses: actions/setup-go@fac708d6674e30b6ba41289acaab6d4b75aa0753 # v4.0.1
-        with:
-          go-version-file: go.mod
-          cache: false
-
-      - name: Download go dependencies
-        run: |
-          go mod download
-          go mod download -modfile tools/go.mod
-          go mod download -modfile acceptance/go.mod
-
-      - name: Setup Node.js environment
-        uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
-        with:
-          node-version-file: 'package.json'
-
-      - name: Download NPM dependencies
-        run: npm ci
-
-      - name: Build distribution
-        run: make dist
-
-      - name: Registry login
-        run: podman login -u ${{ secrets.BUNDLE_PUSH_USER  }} -p ${{ secrets.BUNDLE_PUSH_PASS }} quay.io
-
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@2b82ce82d56a2a04d2637cd93a637ae1b359c0a7 # v2.2.0
-
-      - name: Create and push image
-        run: make dist-image-push IMAGE_TAG=$TAG IMAGE_REPO=$IMAGE_REPO ADD_IMAGE_TAG=snapshot
-
-      - name: Create and push the tekton bundle
-        env:
-          TASK: "tasks/verify-enterprise-contract/0.1/verify-enterprise-contract.yaml tasks/verify-definition/0.1/verify-definition.yaml"
-        run: make task-bundle-snapshot TASK_TAG=$TAG TASK=<( yq e ".spec.steps[].image? = \"$IMAGE_REPO:$TAG\"" $TASK | yq 'select(. != null)')
 
       - name: Download statistics
         env:
