@@ -197,7 +197,7 @@ spec:
       params:
       - name: IMAGE
         value: $(params.output-image)
-      - name: CONTEXT 
+      - name: CONTEXT
         value: ./source/tasks/verify-enterprise-contract/0.1/verify-enterprise-contract.yaml
       runAfter:
       - prefetch-dependencies
@@ -206,7 +206,7 @@ spec:
         - name: name
           value: tkn-bundle
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-tkn-bundle:0.1@sha256:5dcb4c6cedefeec3321cd2d706542d2330d026b665f6515c1071febd16f5cb15
+          value: quay.io/redhat-appstudio-tekton-catalog/task-tkn-bundle:0.1@sha256:62d3f6dc6124ba1586aad52219c83a562f81eadc4d35ca295418ea6c2447190d
         - name: kind
           value: task
         resolver: bundles
