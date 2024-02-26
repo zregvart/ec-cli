@@ -42,7 +42,7 @@ require (
 	sigs.k8s.io/yaml v1.4.0
 )
 
-require github.com/redhat-appstudio/application-api v0.0.0-20231026192857-89515ad2504f
+require github.com/redhat-appstudio/application-api v0.0.0-20240106104232-18f545e48a03
 
 require (
 	contrib.go.opencensus.io/exporter/ocagent v0.7.1-0.20200907061046-05415f1de66d // indirect

@@ -21,7 +21,7 @@ require (
 	github.com/package-url/packageurl-go v0.1.2
 	github.com/qri-io/jsonpointer v0.1.1
 	github.com/qri-io/jsonschema v0.2.1
-	github.com/redhat-appstudio/application-api v0.0.0-20231026192857-89515ad2504f
+	github.com/redhat-appstudio/application-api v0.0.0-20240106104232-18f545e48a03
 	github.com/secure-systems-lab/go-securesystemslib v0.8.0
 	github.com/sigstore/cosign/v2 v2.2.3
 	github.com/sigstore/sigstore v1.8.1
