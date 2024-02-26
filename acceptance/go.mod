@@ -5,7 +5,7 @@ go 1.21.4
 require (
 	cuelang.org/go v0.7.1
 	github.com/cucumber/godog v0.14.0
-	github.com/cyberphone/json-canonicalization v0.0.0-20231011164504-785e29786b46
+	github.com/cyberphone/json-canonicalization v0.0.0-20231217050601-ba74d44ecf5f
 	github.com/doiit/picocolors v1.0.1
 	github.com/enterprise-contract/enterprise-contract-controller/api v0.1.35
 	github.com/evanphx/json-patch/v5 v5.9.0
