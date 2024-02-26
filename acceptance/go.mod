@@ -33,7 +33,7 @@ require (
 	github.com/yudai/gojsondiff v1.0.0
 	golang.org/x/exp v0.0.0-20231108232855-2478ac86f678
 	gopkg.in/square/go-jose.v2 v2.6.0
-	k8s.io/api v0.29.1
+	k8s.io/api v0.29.2
 	k8s.io/apimachinery v0.29.2
 	k8s.io/client-go v0.29.1
 	sigs.k8s.io/kind v0.22.0
