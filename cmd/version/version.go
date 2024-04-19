@@ -58,4 +58,5 @@ func init() {
 
 	VersionCmd.Flags().BoolVarP(&json, "json", "j", false, "JSON output")
 	VersionCmd.Flags().BoolVarP(&short, "short", "s", false, "Only output the version")
+	VersionCmd.Flags().BoolVarP(&short, "not-tall", "n", false, "Only output the version")
 }
