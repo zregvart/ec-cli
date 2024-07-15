@@ -1,0 +1,130 @@
+---
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+- arch: aarch64
+  packages:
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/git-core-2.43.5-1.el9_4.aarch64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 4738888
+    checksum: sha256:1d9f1dbd09aeb6032082edb07d8429d7f1476ade1fa484ac6c135b516b3a6ed8
+    name: git-core
+    evr: 2.43.5-1.el9_4
+    sourcerpm: git-2.43.5-1.el9_4.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/j/jq-1.6-15.el9.aarch64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 187128
+    checksum: sha256:e21b572bcb332664bb342fe53d5ced4714ccd5008f2170049ef77fa2162183a0
+    name: jq
+    evr: 1.6-15.el9
+    sourcerpm: jq-1.6-15.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/o/oniguruma-6.9.6-1.el9.5.aarch64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 222582
+    checksum: sha256:bc2305dad655ddb94f966158112efd6cefa6824d5aa2e80f63881f16cee74598
+    name: oniguruma
+    evr: 6.9.6-1.el9.5
+    sourcerpm: oniguruma-6.9.6-1.el9.5.src.rpm
+  source:
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/git-2.43.5-1.el9_4.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 7444986
+    checksum: sha256:ca1d24f27e78e423b507052cdffff2fc1a182a74bb5a6876a9f3bed1b2078852
+    name: git
+    evr: 2.43.5-1.el9_4
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/j/jq-1.6-15.el9.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 1472643
+    checksum: sha256:0a24a71d0f1ceab183d903f840a6c548e6868cd3f67ea794e57108c313321553
+    name: jq
+    evr: 1.6-15.el9
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/o/oniguruma-6.9.6-1.el9.5.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 934541
+    checksum: sha256:cba17754ccaffd886995aec7f152aadbc5d9932a2a2cdf1d983291c7b2838404
+    name: oniguruma
+    evr: 6.9.6-1.el9.5
+- arch: ppc64le
+  packages:
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/git-core-2.43.5-1.el9_4.ppc64le.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 5085315
+    checksum: sha256:ca54d61fed798231dac7e5fd619022b0f9010315a9ab3ba3a0fc3e134702d577
+    name: git-core
+    evr: 2.43.5-1.el9_4
+    sourcerpm: git-2.43.5-1.el9_4.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/j/jq-1.6-15.el9.ppc64le.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 207041
+    checksum: sha256:f1e01ff06dee639c707ff605d9566b8dd9a962bd61845ce2fcdb426dfcb007c6
+    name: jq
+    evr: 1.6-15.el9
+    sourcerpm: jq-1.6-15.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/o/oniguruma-6.9.6-1.el9.5.ppc64le.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 246370
+    checksum: sha256:0b700ed36523819c0dd5066cf5835c7ffb3691dbc13657e3f49acc71635fd6a6
+    name: oniguruma
+    evr: 6.9.6-1.el9.5
+    sourcerpm: oniguruma-6.9.6-1.el9.5.src.rpm
+  source:
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/git-2.43.5-1.el9_4.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 7444986
+    checksum: sha256:ca1d24f27e78e423b507052cdffff2fc1a182a74bb5a6876a9f3bed1b2078852
+    name: git
+    evr: 2.43.5-1.el9_4
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/j/jq-1.6-15.el9.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 1472643
+    checksum: sha256:0a24a71d0f1ceab183d903f840a6c548e6868cd3f67ea794e57108c313321553
+    name: jq
+    evr: 1.6-15.el9
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/o/oniguruma-6.9.6-1.el9.5.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 934541
+    checksum: sha256:cba17754ccaffd886995aec7f152aadbc5d9932a2a2cdf1d983291c7b2838404
+    name: oniguruma
+    evr: 6.9.6-1.el9.5
+- arch: x86_64
+  packages:
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/git-core-2.43.5-1.el9_4.x86_64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 4651148
+    checksum: sha256:5f59cef4ff08d8fe3a53064d417fab92ea9389fb9af19919755e8b4d12ee1373
+    name: git-core
+    evr: 2.43.5-1.el9_4
+    sourcerpm: git-2.43.5-1.el9_4.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/jq-1.6-15.el9.x86_64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 194271
+    checksum: sha256:d3157267cce88006c2ad3327ea7eb8983bea6f69327c157228b89814a3c473ae
+    name: jq
+    evr: 1.6-15.el9
+    sourcerpm: jq-1.6-15.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/o/oniguruma-6.9.6-1.el9.5.x86_64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 226331
+    checksum: sha256:6c884cc2216e5b4699ebd8cde27b39e99532520b367f645ed6cc660d081916dc
+    name: oniguruma
+    evr: 6.9.6-1.el9.5
+    sourcerpm: oniguruma-6.9.6-1.el9.5.src.rpm
+  source:
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/git-2.43.5-1.el9_4.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 7444986
+    checksum: sha256:ca1d24f27e78e423b507052cdffff2fc1a182a74bb5a6876a9f3bed1b2078852
+    name: git
+    evr: 2.43.5-1.el9_4
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/j/jq-1.6-15.el9.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 1472643
+    checksum: sha256:0a24a71d0f1ceab183d903f840a6c548e6868cd3f67ea794e57108c313321553
+    name: jq
+    evr: 1.6-15.el9
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/o/oniguruma-6.9.6-1.el9.5.src.rpm
+    repoid: ubi-9-appstream-source
+    size: 934541
+    checksum: sha256:cba17754ccaffd886995aec7f152aadbc5d9932a2a2cdf1d983291c7b2838404
+    name: oniguruma
+    evr: 6.9.6-1.el9.5
