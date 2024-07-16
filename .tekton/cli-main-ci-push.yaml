@@ -2,7 +2,7 @@ apiVersion: tekton.dev/v1
 kind: PipelineRun
 metadata:
   annotations:
-    build.appstudio.openshift.io/repo: https://github.com/enterprise-contract/ec-cli?rev={{revision}}
+    build.appstudio.openshift.io/repo: https://github.com/zregvart/contract/ec-cli?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
@@ -14,7 +14,7 @@ metadata:
     appstudio.openshift.io/component: cli-main-ci
     pipelines.appstudio.openshift.io/type: build
   name: cli-main-ci-on-push
-  namespace: rhtap-contract-tenant
+  namespace: zregvart-tenant
 spec:
   params:
   - name: dockerfile
@@ -24,7 +24,7 @@ spec:
   - name: image-expires-after
     value: ''
   - name: output-image
-    value: quay.io/redhat-user-workloads/rhtap-contract-tenant/ec-main-ci/cli-main-ci:{{revision}}
+    value: quay.io/redhat-user-workloads/zregvart-tenant/ec-cli/ec-cli-main:{{revision}}
   - name: path-context
     value: .
   - name: revision
