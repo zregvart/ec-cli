@@ -1,6 +1,6 @@
 module github.com/enterprise-contract/ec-cli/tools
 
-go 1.22.5
+go 1.22.8
 
 require (
 	github.com/daixiang0/gci v0.13.5
@@ -12,7 +12,7 @@ require (
 	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad
 	helm.sh/helm/v3 v3.16.1
 	k8s.io/kubernetes v1.31.1
-	sigs.k8s.io/kustomize/kustomize/v5 v5.4.3
+	sigs.k8s.io/kustomize/kustomize/v5 v5.4.4-0.20240927025001-01cce4f6ccdb
 )
 
 require (
@@ -494,7 +494,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.29.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
-	go.starlark.net v0.0.0-20240725214946-42030a7cedce // indirect
+	go.starlark.net v0.0.0-20240925182052-1207426daebd // indirect
 	go.step.sm/crypto v0.51.2 // indirect
 	go.uber.org/automaxprocs v1.5.3 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
@@ -550,9 +550,9 @@ require (
 	oras.land/oras-go v1.2.6 // indirect
 	oras.land/oras-go/v2 v2.5.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
-	sigs.k8s.io/kustomize/api v0.17.3 // indirect
-	sigs.k8s.io/kustomize/cmd/config v0.14.2 // indirect
-	sigs.k8s.io/kustomize/kyaml v0.17.2 // indirect
+	sigs.k8s.io/kustomize/api v0.17.4-0.20240927025001-01cce4f6ccdb // indirect
+	sigs.k8s.io/kustomize/cmd/config v0.14.3-0.20240927025001-01cce4f6ccdb // indirect
+	sigs.k8s.io/kustomize/kyaml v0.18.1-0.20240927025001-01cce4f6ccdb // indirect
 	sigs.k8s.io/release-utils v0.8.4 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect

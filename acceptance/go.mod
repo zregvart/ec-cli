@@ -1,6 +1,7 @@
 module github.com/enterprise-contract/ec-cli/acceptance
 
-go 1.22.5
+go 1.22.8
+
 require (
 	cuelang.org/go v0.10.0
 	github.com/cucumber/godog v0.14.1
@@ -36,8 +37,8 @@ require (
 	k8s.io/apimachinery v0.31.0
 	k8s.io/client-go v0.31.0
 	sigs.k8s.io/kind v0.24.0
-	sigs.k8s.io/kustomize/api v0.17.3
-	sigs.k8s.io/kustomize/kyaml v0.18.0
+	sigs.k8s.io/kustomize/api v0.17.4-0.20240927025001-01cce4f6ccdb
+	sigs.k8s.io/kustomize/kyaml v0.18.1-0.20240927025001-01cce4f6ccdb
 	sigs.k8s.io/yaml v1.4.0
 )
 

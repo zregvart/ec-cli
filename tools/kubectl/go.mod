@@ -1,6 +1,6 @@
 module github.com/enterprise-contract/ec-cli/tools/kubectl
 
-go 1.22.5
+go 1.22.8
 
 require k8s.io/kubernetes v1.31.1
 
@@ -67,15 +67,15 @@ require (
 	github.com/spf13/pflag v1.0.6-0.20210604193023-d5e0c0615ace // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
-	go.starlark.net v0.0.0-20240725214946-42030a7cedce // indirect
+	go.starlark.net v0.0.0-20240925182052-1207426daebd // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.24.0 // indirect
+	golang.org/x/sys v0.25.0 // indirect
 	golang.org/x/term v0.23.0 // indirect
-	golang.org/x/text v0.17.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
 	golang.org/x/time v0.6.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
@@ -94,9 +94,10 @@ require (
 	k8s.io/metrics v0.31.0 // indirect
 	k8s.io/utils v0.0.0-20240902221715-702e33fdd3c3 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
-	sigs.k8s.io/kustomize/api v0.17.3 // indirect
-	sigs.k8s.io/kustomize/kustomize/v5 v5.4.3 // indirect
-	sigs.k8s.io/kustomize/kyaml v0.17.2 // indirect
+	sigs.k8s.io/kustomize/api v0.17.4-0.20240927025001-01cce4f6ccdb // indirect
+	sigs.k8s.io/kustomize/cmd/config v0.14.3-0.20240927025001-01cce4f6ccdb // indirect
+	sigs.k8s.io/kustomize/kustomize/v5 v5.4.4-0.20240927025001-01cce4f6ccdb // indirect
+	sigs.k8s.io/kustomize/kyaml v0.18.1-0.20240927025001-01cce4f6ccdb // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
